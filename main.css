@@ -1,0 +1,35 @@
+.contenedor-cuadros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:640px;
+    height: 640px;
+    margin: auto;
+    background: rgb(196, 114, 114);
+    gap: 10px;
+    border-radius: 5px;
+}
+.cuadro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    gap: 20px;
+    border-radius: 10px;
+}
+.cuadro-1{
+    background: red;
+}
+.cuadro-2{
+    background: blue;
+}
+.cuadro-3{
+    background: green;
+}
+.cuadro-4{
+    background: yellow;
+}
